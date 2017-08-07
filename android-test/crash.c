@@ -7,7 +7,7 @@ int main()
 {
   char buf[5];
 
-  memset(buf, 5, 0);
+  memset(buf, 0, 5);
 
   read(0, buf, 5);
 
